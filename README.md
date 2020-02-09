@@ -7,4 +7,4 @@ pip install requirements.txt
 
 config.ini  数据库配置信息
 
-![]{https://github.com/hackxc/Xsgk/blob/master/demo.png}
+![img](https://github.com/hackxc/Xsgk/blob/master/demo.png)
