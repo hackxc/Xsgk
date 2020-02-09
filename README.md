@@ -1,6 +1,6 @@
 # Xsgk - 社工库
 
-基于Flask开发，不到200KB
+基于Flask开发，不到200kb
 
 pip install requirements.txt
 
