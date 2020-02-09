@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xsgk - 密码泄露查询</title>
+	<style type="text/css">
+	body{
+    background:url("https://s2.ax1x.com/2020/02/09/1huTQP.jpg") top left;
+    background-size:100%;}
+
+input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+	</style>
+	
+</head>
+<body>
+<center>
+<br><h1>Xsgk - 密码泄露查询</h1><br><br>
+<form method="POST">
+    <input type="text" name="key" style="height:40px;width:380px;outline-style:none; font-size:18px;" placeholder="请输入你要查询的内容"/>
+        <select name="select" style="height:45px;width:80px">
+          <option>QQ</option>
+          <option>姓名</option>
+          <option>地址</option>
+          <option>邮箱</option>
+          <option>手机号</option>
+		  <option>身份证</option>
+        </select>
+<input type="submit" value="查询" style="height:46px;width:100px"/><br>
+</form>
+<br>
+<br><br><br><br>
+<h3 style="color: #4F9D9D;">
+{% for message in get_flashed_messages() %}
+    {{ message }}<br><br>
+{% endfor %}
+</h3>
+</center>
+</body>
+</html>

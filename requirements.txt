@@ -1,0 +1,13 @@
+certifi==2019.11.28
+chardet==3.0.4
+Click==7.0
+configparser==4.0.2
+Flask==1.1.1
+idna==2.8
+itsdangerous==1.1.0
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+mysql-connector==2.2.9
+requests==2.22.0
+urllib3==1.25.8
+Werkzeug==0.16.1
