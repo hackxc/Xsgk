@@ -121,5 +121,5 @@ if __name__ == '__main__':
     port = options.port
     if port==None:
         print ("Usage : %s -p 8080"%os.path.basename(sys.argv[0]))
-        sys.exit()
+        sys.exit(0)
     app.run(port="%s"%port)
